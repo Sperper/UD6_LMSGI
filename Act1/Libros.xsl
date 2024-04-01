@@ -25,15 +25,7 @@
                             <xsl:value-of select="NumPaginas"/>
                         </td>
                         <td>
-                            <xsl:value-of select="Autores/autor/Cod_Autor"/>
-                            <xsl:text>, </xsl:text> 
-                            <xsl:value-of select="Autores/autor/Nombre"/>
-                            <xsl:text>, </xsl:text> 
-                            <xsl:value-of select="Autores/autor/Apellidos"/>
-                            <xsl:text>, </xsl:text> 
-                            <xsl:value-of select="Autores/autor/FechaNacimiento"/>
-                            <xsl:text>, </xsl:text> 
-                            <xsl:value-of select="Autores/autor/Nacionalidad"/>
+                            <xsl:value-of select="Autores"/>
                         </td>
                     </tr>
                     </xsl:for-each>
